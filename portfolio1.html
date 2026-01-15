@@ -31,7 +31,8 @@
 
 </head>
 
-<body>
+<body class="bg-white dark:bg-black text-black dark:text-white">
+
 
   
   <!-- NAVBAR -->
@@ -57,7 +58,16 @@
       <li>
         <a href="#contact" class="hover:text-white transition">Contact</a>
       </li>
+
+      <!-- Theme Toggle -->
+  <li>
+    <button id="themeToggle"
+      class="ml-2 text-gray-400 hover:text-white transition">
+      <i data-lucide="moon" class="w-5 h-5"></i>
+    </button>
+  </li>
     </ul>
+
 
   </div>
 </nav>
@@ -321,6 +331,35 @@
   <script>
   lucide.createIcons();
 </script>
+
+<script>
+  const toggleBtn = document.getElementById("themeToggle");
+  const html = document.documentElement;
+
+  // Load saved theme
+  if (localStorage.theme === "light") {
+    html.classList.remove("dark");
+    toggleBtn.innerHTML = '<i data-lucide="sun" class="w-5 h-5"></i>';
+  } else {
+    html.classList.add("dark");
+    toggleBtn.innerHTML = '<i data-lucide="moon" class="w-5 h-5"></i>';
+  }
+  lucide.createIcons();
+
+  toggleBtn.addEventListener("click", () => {
+    if (html.classList.contains("dark")) {
+      html.classList.remove("dark");
+      localStorage.theme = "light";
+      toggleBtn.innerHTML = '<i data-lucide="sun" class="w-5 h-5"></i>';
+    } else {
+      html.classList.add("dark");
+      localStorage.theme = "dark";
+      toggleBtn.innerHTML = '<i data-lucide="moon" class="w-5 h-5"></i>';
+    }
+    lucide.createIcons();
+  });
+</script>
+
 
 </body>
 </html>
