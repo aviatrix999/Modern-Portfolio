@@ -1,2 +1,117 @@
-# Modern-Portfolio
-Here is my another trial to make a modern tech Portfolio
+# 🌐 Personal Portfolio Website — Amisha Patel
+
+✨ A modern, dark-themed personal portfolio website built with **HTML, Tailwind CSS, JavaScript**, and a touch of motion & interactivity.
+
+This project represents **who I am as a Computer Science Engineering student**, my skills, projects, and how to connect with me — all in one place.
+
+---
+
+## 🔥 Live Preview
+👉 *(Deploy using GitHub Pages / Netlify / Vercel for live demo)*
+
+---
+
+## 🧠 About the Project
+
+This portfolio is designed to be:
+- 🎨 **Minimal & elegant**
+- 🌙 **Dark-mode friendly**
+- 📱 **Fully responsive**
+- ⚡ **Interactive & dynamic**
+
+It includes animated sections, a real-time **age timer**, smooth reveal-on-scroll effects, and a persistent **theme toggle**.
+
+---
+
+## 🛠️ Tech Stack Used
+
+🧩 **Frontend**
+- HTML5  
+- Tailwind CSS  
+- Vanilla JavaScript  
+
+🎨 **UI & Icons**
+- Lucide Icons  
+- Google Fonts (Roboto, Caveat)
+
+⚙️ **Other Features**
+- LocalStorage for theme persistence  
+- Scroll-based reveal animations  
+- Real-time age calculation  
+
+---
+
+## ✨ Key Features
+
+✅ Dark / Light Mode Toggle 🌙☀️  
+✅ Scroll Reveal Animations 🎯  
+✅ Real-time Age Timer ⏳  
+✅ Responsive Layout (Mobile + Desktop) 📱💻  
+✅ Clean, readable UI  
+✅ Accessible social & contact links  
+
+---
+
+## 📁 Project Structure
+```
+
+├── index.html # Main HTML file
+├── styles.css # Animation & reveal styles
+├── portfolio1.css # Additional custom styling
+├── Functionality.js # Theme toggle, reveal & age timer logic
+└── README.md # Project documentation
+```
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/aviatrix999/My_First_Portfolio.git
+
+2. Open the folder
+    ```
+    cd My_First_Portfolio
+    ```
+3.Open ```index.html ```in your browser
+(or use Live Server in VS Code)
+
+---
+
+## 📌 Future Improvements
+
+🔹 Add project images & modals
+🔹 Add backend contact form
+🔹 Improve accessibility (ARIA labels)
+🔹 Add smooth page transitions
+
+---
+
+##👩‍💻 About Me
+
+👋 Hi, I’m Amisha Patel
+🎓 B.Tech CSE Student (Batch of 2029)
+📍 Pune, India
+
+I love building clean interfaces, learning new technologies, and turning ideas into reality through code.
+---
+
+## 📬 Connect With Me
+
+📧 Email: amishapatel792834@gmail.com
+
+🐦 Twitter: @StackAmisha
+
+💼 LinkedIn: Amisha Patel
+
+💻 GitHub: aviatrix999
+
+---
+
+⭐ Support the Project
+
+If you found this project helpful, inspiring, or useful:
+
+🌟 Please consider giving this repository a STAR
+It really motivates me to keep building and improving 💙
