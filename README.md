@@ -105,8 +105,7 @@ I love building clean interfaces, learning new technologies, and turning ideas i
 
 💼 LinkedIn: www.linkedin.com/in/amisha-patel-481917376
 
-💻 GitHub: github.com/aviatrix999
-
+💻 GitHub: https://github.com/aviatrix999
 ---
 
 ⭐ Support the Project
