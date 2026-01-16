@@ -23,22 +23,12 @@ It includes animated sections, a real-time **age timer**, smooth reveal-on-scrol
 
 ---
 
-## 🛠️ Tech Stack Used
+**🛠️ Technologies Used**
 
-🧩 **Frontend**
-- HTML5  
-- Tailwind CSS  
-- Vanilla JavaScript  
-
-🎨 **UI & Icons**
-- Lucide Icons  
-- Google Fonts (Roboto, Caveat)
-
-⚙️ **Other Features**
-- LocalStorage for theme persistence  
-- Scroll-based reveal animations  
-- Real-time age calculation  
-
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ---
 
 ## ✨ Key Features
@@ -105,7 +95,6 @@ I love building clean interfaces, learning new technologies, and turning ideas i
 
 💼 LinkedIn: www.linkedin.com/in/amisha-patel-481917376
 
-💻 GitHub: [github.com/aviatrix999]
 ---
 
 ⭐ Support the Project
