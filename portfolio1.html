@@ -34,56 +34,21 @@
 
   <body class="bg-white dark:bg-black text-black dark:text-white">
     <!-- NAVBAR -->
-    <nav
-      class="fixed top-0 left-0 w-full bg-white dark:bg-black z-50 border-b border-gray-200 dark:border-gray-800"
-    >
-      <div
-        class="mx-auto max-w-[900px] px-4 h-16 flex items-center justify-between"
-      >
-        <h1 class="text-black dark:text-white text-xl font-bold tracking-wide">
-          Amisha Patel
-        </h1>
-
-        <ul
-          class="hidden md:flex items-center gap-6 text-gray-600 dark:text-gray-400 font-medium"
-        >
-          <li>
-            <a
-              href="#about"
-              class="hover:text-black dark:hover:text-white transition"
-              >About</a
-            >
-          </li>
-          <li>
-            <a
-              href="#projects"
-              class="hover:text-black dark:hover:text-white transition"
-              >Projects</a
-            >
-          </li>
-          <li>
-            <a
-              href="#skills"
-              class="hover:text-black dark:hover:text-white transition"
-              >Skills</a
-            >
-          </li>
-          <li>
-            <a
-              href="#contact"
-              class="hover:text-black dark:hover:text-white transition"
-              >Contact</a
-            >
-          </li>
-
-          <li>
-            <button id="themeToggle" class="ml-2 transition">
-              <i data-lucide="moon" class="w-5 h-5"></i>
-            </button>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <!-- Mobile Dropdown Menu -->
+  <div id="mobileMenu" class="overflow-hidden max-h-0 md:hidden bg-white dark:bg-black border-t border-gray-200 dark:border-gray-800 transition-all duration-300">
+    <ul class="flex flex-col gap-4 p-4 text-gray-600 dark:text-gray-400 font-medium">
+      <li><a href="#about" class="hover:text-black dark:hover:text-white transition">About</a></li>
+      <li><a href="#projects" class="hover:text-black dark:hover:text-white transition">Projects</a></li>
+      <li><a href="#skills" class="hover:text-black dark:hover:text-white transition">Skills</a></li>
+      <li><a href="#contact" class="hover:text-black dark:hover:text-white transition">Contact</a></li>
+      <li>
+        <button id="mobileThemeToggle" class="transition">
+          <i data-lucide="moon" class="w-5 h-5"></i>
+        </button>
+      </li>
+    </ul>
+  </div>
+</nav>
 
     <!-- MAIN -->
     <main class="bg-white dark:bg-black min-h-screen font-roboto pt-20">
