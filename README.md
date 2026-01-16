@@ -101,11 +101,11 @@ I love building clean interfaces, learning new technologies, and turning ideas i
 
 📧 Email: amishapatel792834@gmail.com
 
-🐦 Twitter: @StackAmisha
+🐦 Twitter: @StackAmisha(currently down)
 
-💼 LinkedIn: Amisha Patel
+💼 LinkedIn: www.linkedin.com/in/amisha-patel-481917376
 
-💻 GitHub: aviatrix999
+💻 GitHub: github.com/aviatrix999
 
 ---
 
