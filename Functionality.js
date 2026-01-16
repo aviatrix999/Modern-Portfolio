@@ -1,3 +1,32 @@
+const mobileMenuButton = document.getElementById('mobileMenuButton');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const mobileLinks = mobileMenu.querySelectorAll('a');
+  const themeToggle = document.getElementById('themeToggle');
+  const mobileThemeToggle = document.getElementById('mobileThemeToggle');
+
+  // Toggle mobile menu with smooth slide
+  mobileMenuButton.addEventListener('click', () => {
+    if (mobileMenu.style.maxHeight && mobileMenu.style.maxHeight !== "0px") {
+      mobileMenu.style.maxHeight = "0px";
+    } else {
+      mobileMenu.style.maxHeight = mobileMenu.scrollHeight + "px";
+    }
+  });
+
+  // Close mobile menu automatically when clicking a link
+  mobileLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      mobileMenu.style.maxHeight = "0px";
+    });
+  });
+
+  // Sync mobile theme toggle
+  mobileThemeToggle.addEventListener('click', () => {
+    themeToggle.click();
+  });
+
+
+
 const toggleBtn = document.getElementById("themeToggle");
       const root = document.documentElement;
 
