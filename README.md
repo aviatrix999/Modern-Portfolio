@@ -7,7 +7,7 @@ This project represents **who I am as a Computer Science Engineering student**, 
 ---
 
 ## 🔥 Live Preview
-👉 *(Deploy using GitHub Pages / Netlify / Vercel for live demo)*
+👉 heyamisha.netlify.app
 
 ---
 
