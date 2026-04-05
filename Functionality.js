@@ -100,3 +100,5 @@ const toggleBtn = document.getElementById("themeToggle");
 
   updateAge();
   setInterval(updateAge, 10);
+
+lucide.createIcons();
